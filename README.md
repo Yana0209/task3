@@ -1,11 +1,10 @@
-# task3
-# University Schedule Management System
+# Lb #3
 
-## Objective
-Develop a TypeScript-based system for managing university class schedules using Union Types, Type Aliases, and Arrays.
+This project demonstrates the setup of ESLint, Prettier, Husky, and lint-staged for consistent code formatting.
 
-## Features
-- **Type Definitions:** Days of the week, time slots, and course types.
-- **Data Structures:** Professors, classrooms, courses, and lessons.
-- **Functionality:** Add professors/lessons, check availability, retrieve schedules, and handle conflicts.
-- **Data Modification:** Reassign classrooms and cancel lessons.
+## Overview
+
+- **ESLint**: Linting tool for identifying and fixing problems in JavaScript/TypeScript code.
+- **Prettier**: Code formatter that enforces a consistent style.
+- **Husky**: Git hooks manager that runs scripts before certain Git events (e.g., commits).
+- **lint-staged**: Runs ESLint and Prettier only on staged files before committing.
