@@ -13,9 +13,9 @@ export default [
 				...globals.browser,
 				...globals.node,
 			},
-			parser, // Встановлення парсера
+			parser, 
 			parserOptions: {
-				project: ['tsconfig.json'], // Вкажіть коректний шлях до tsconfig.json
+				project: ['tsconfig.json'], 
 			},
 		},
 		files: ['**/*.{js,ts}'],
@@ -25,9 +25,9 @@ export default [
 		},
 		rules: {
 			'prettier/prettier': 'error',
-			'no-console': ['error', { allow: ['error', 'warn'] }], // Забороняємо використання console, дозволяємо error та warn
-			'prefer-const': 'warn', // Попередження при використанні let
-			'no-unused-vars': 'warn', // Заміна 'error' на 'warn', якщо потрібно
+			'no-console': ['error', { allow: ['error', 'warn'] }], 
+			'prefer-const': 'warn', 
+			'no-unused-vars': 'warn', 
 		},
 	},
 ];
